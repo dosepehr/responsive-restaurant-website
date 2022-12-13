@@ -120,3 +120,21 @@ ul {
 .on-hover-bg-green:hover{
     background-color: var(--color-green2);
 }
+/* about section */
+.about{
+    margin-top: 20vh;
+}
+#img-width{
+    border-radius: 5px;
+}
+.sub-title{
+    color: var(--color-green1);
+    font-size: 15px;
+    margin: 0 !important;
+    
+}
+.section-desc{
+    color: var(--color-gray1);
+    font-weight: 500;
+    font-size: 15px;
+}
