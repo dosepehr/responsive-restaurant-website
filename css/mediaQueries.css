@@ -1,0 +1,11 @@
+@media (max-width:768px) {
+    nav ul {
+        display: none;
+    }
+}
+
+@media (min-width:992px) {
+    .nav-container {
+        width: 50%;
+    }
+}

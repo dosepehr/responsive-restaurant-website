@@ -2,24 +2,91 @@
 
 @font-face {
     font-family: 'Poppins';
-       src: url('../fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+    src: url('../fonts/Poppins/Poppins-Medium.ttf') format('truetype');
 }
 
-*{
+:root {
+    --color-gray1: #707070;
+    --color-green1: #069c54;
+    --dark-green: #1D2521;
+    --dark-text-gray: #C7D1CC;
+}
+
+* {
     box-sizing: border-box;
     outline: none;
     margin: 0;
     padding: 0;
 }
-*{
+
+* {
     font-family: 'Poppins';
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style: none;
 }
-body{
+
+body {
     min-width: 100vh;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+
+/* header */
+header {
+    padding: 30px 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-container {
+    width: 65%;
+    display: flex;
+    justify-content: end;
+}
+
+.dark-mode-toggler {
+    cursor: pointer;
+    margin-left: 30px;
+    align-items: baseline;
+}
+
+.text-gray1 {
+    color: var(--color-gray1);
+}
+
+.hover-green1:hover {
+    color: var(--color-green1);
+}
+
+.has-transition {
+    transition: all 0.3s ease;
+}
+
+.hidden {
+    display: none;
+}
+
+.bi-moon {
+    color: var(--color-gray1);
+
+}
+
+.bi-sun {
+    color: var(--dark-text-gray);
 }

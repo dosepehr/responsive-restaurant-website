@@ -1,0 +1,8 @@
+.dark {
+    background-color: var(--dark-green);
+
+}
+
+.dark .on-dark-text-gray {
+    color: var(--dark-text-gray);
+}
