@@ -6,3 +6,6 @@
 .dark .on-dark-text-gray {
     color: var(--dark-text-gray);
 }
+.dark .on-dark-text-white{
+    color: #fff !important;
+}

@@ -8,8 +8,10 @@
 :root {
     --color-gray1: #707070;
     --color-green1: #069c54;
+    --color-green2:#048654;
     --dark-green: #1D2521;
     --dark-text-gray: #C7D1CC;
+    --color-main-dark: #393939
 }
 
 * {
@@ -32,9 +34,7 @@ ul {
 }
 
 body {
-    min-width: 100vh;
     background-color: #fff;
-    transition: all 0.3s ease;
 }
 
 
@@ -89,4 +89,34 @@ ul {
 
 .bi-sun {
     color: var(--dark-text-gray);
+}
+
+/* home section */
+.text-green {
+    color: var(--color-green1);
+}
+
+.font-lg {
+    font-size: 4rem;
+}
+
+.font-md {
+    font-size: 2.5rem;
+}
+
+.text-main-dark {
+    color: var(--color-main-dark)
+}
+.green-btn{
+    background-color: var(--color-green1);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: max-content;
+}
+.green-btn:hover{
+    color: #fff;
+}
+.on-hover-bg-green:hover{
+    background-color: var(--color-green2);
 }
