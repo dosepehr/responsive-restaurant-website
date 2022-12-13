@@ -22,4 +22,7 @@
     #img-width {
         width: 100%;
     }
+    .home h1{
+        white-space: nowrap;
+    }
 }
