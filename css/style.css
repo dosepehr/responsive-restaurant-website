@@ -138,3 +138,20 @@ ul {
     font-weight: 500;
     font-size: 15px;
 }
+/* services section */
+.services{
+    margin-top: 20vh;
+}
+.svg-container{
+    fill:var(--color-green1);
+    display: flex;
+    width: 64px;
+    height: 64px;
+}
+.font-sm{
+    font-size: 1.5rem;
+}
+.service{
+    align-items: center;
+    text-align: center;
+}
