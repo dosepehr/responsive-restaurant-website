@@ -14,6 +14,9 @@
     .make-center-80 {
         margin: 0 auto;
     }
+    .movil-app{
+        margin-top: 20px;
+    }
 }
 
 @media (min-width:991.98px) {
@@ -60,5 +63,11 @@
 @media (min-width:991.98px) and (max-width:1199.98px){
     .food{
         width:220px;
+    }
+}
+
+@media (max-width:500px) {
+    .movil-app img{
+        width: 250px;
     }
 }

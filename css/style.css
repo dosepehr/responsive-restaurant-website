@@ -216,3 +216,24 @@ ul {
     color: #fff;
     background-color: var(--color-green2);
 }
+
+
+/** app section */
+.app {
+
+    margin-top: 20vh;
+}
+.links img{
+    width: 120px;
+}
+.links img:nth-child(1){
+    margin-right: 20px;
+}
+.movil-app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.movil-app img{
+    width: 400px;
+}
