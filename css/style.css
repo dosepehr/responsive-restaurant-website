@@ -237,3 +237,8 @@ ul {
 .movil-app img{
     width: 400px;
 }
+/** contact section*/
+
+.contact{
+    margin-top: 10vh;
+}
