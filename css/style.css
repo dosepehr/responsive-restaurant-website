@@ -8,10 +8,11 @@
 :root {
     --color-gray1: #707070;
     --color-green1: #069c54;
-    --color-green2:#048654;
+    --color-green2: #048654;
     --dark-green: #1D2521;
     --dark-text-gray: #C7D1CC;
-    --color-main-dark: #393939
+    --color-main-dark: #393939;
+    --color-dark-green:#27302C;
 }
 
 * {
@@ -108,54 +109,110 @@ ul {
 .text-main-dark {
     color: var(--color-main-dark)
 }
-.green-btn{
+
+.green-btn {
     background-color: var(--color-green1);
     color: #fff;
     padding: 10px;
     border-radius: 5px;
     width: max-content;
 }
-.green-btn:hover{
+
+.green-btn:hover {
     color: #fff;
 }
-.on-hover-bg-green:hover{
+
+.on-hover-bg-green:hover {
     background-color: var(--color-green2);
 }
+
 /* about section */
-.about{
+.about {
     margin-top: 20vh;
 }
 
 
-#img-width{
+#img-width {
     border-radius: 5px;
 }
-.sub-title{
+
+.sub-title {
     color: var(--color-green1);
     font-size: 15px;
     margin: 0 !important;
 
 }
-.section-desc{
+
+.section-desc {
     color: var(--color-gray1);
     font-weight: 500;
     font-size: 15px;
 }
+
 /* services section */
-.services{
+.services {
     margin-top: 20vh;
 }
-.svg-container{
-    fill:var(--color-green1);
+
+.svg-container {
+    fill: var(--color-green1);
     display: flex;
     width: 64px;
     height: 64px;
 }
-.font-sm{
+
+.font-sm {
     font-size: 1.5rem;
 }
-.service{
+
+.service {
     align-items: center;
     text-align: center;
 }
 
+/* menu section */
+.menu {
+    margin-top: 20vh;
+
+}
+
+.make-center {
+    margin: 0 auto;
+}
+
+.font-xs {
+    font-size: 1rem;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+.food{
+    box-shadow: 0 2px 4px #034a2826;
+    border-radius: 5px;
+    min-width: 200px;
+}
+
+.food-desc{
+    margin-top: 30px;
+}
+.w-80{
+    width: 80%;
+}
+.food-img{
+    margin-top: 20px;
+}
+.buy{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: var(--color-green1);
+    color: #fff;
+    padding: 10px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.buy:hover{
+    color: #fff;
+    background-color: var(--color-green2);
+}

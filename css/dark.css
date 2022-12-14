@@ -10,3 +10,6 @@
 .dark .on-dark-text-white {
     color: #fff !important;
 }
+.dark .food{
+    background-color: var(--color-dark-green);
+}

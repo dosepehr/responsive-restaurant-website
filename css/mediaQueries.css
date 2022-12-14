@@ -6,6 +6,14 @@
     #img-width {
         width: 80%;
     }
+
+    .w-md-80 {
+        width: 80%;
+    }
+
+    .make-center-80 {
+        margin: 0 auto;
+    }
 }
 
 @media (min-width:991.98px) {
@@ -16,21 +24,41 @@
     .nav-container {
         width: 50%;
     }
-    .section-desc{
+
+    .section-desc {
         width: 75%;
     }
 }
+
 @media (max-width:991.98px) {
-    .section-desc{
+    .section-desc {
         width: 100%;
     }
+
+    .food:nth-child(2) {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 }
+
 
 @media (min-width:767.98px) and (max-width:991.98px) {
     #img-width {
         width: 100%;
     }
-    .home h1{
+
+    .home h1 {
         white-space: nowrap;
+    }
+
+    .food {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+}
+@media (min-width:991.98px) and (max-width:1199.98px){
+    .food{
+        width:220px;
     }
 }
