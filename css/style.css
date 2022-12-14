@@ -92,6 +92,7 @@ ul {
 }
 
 /* home section */
+
 .text-green {
     color: var(--color-green1);
 }
@@ -124,6 +125,8 @@ ul {
 .about{
     margin-top: 20vh;
 }
+
+
 #img-width{
     border-radius: 5px;
 }
@@ -155,3 +158,4 @@ ul {
     align-items: center;
     text-align: center;
 }
+
