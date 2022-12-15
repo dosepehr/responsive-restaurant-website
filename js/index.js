@@ -58,3 +58,40 @@ const toggle_sidebar = () => {
     sidebar.classList.toggle('side-bar-active');
     overlay.classList.toggle('overlay-active');
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const sections = document.querySelectorAll('section');
+const li = document.querySelectorAll('.nav-ul li');
+let current;
+
+
+window.addEventListener('scroll', function () {
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        // console.log(sectionTop, sectionHeight)
+        if (pageYOffset >= sectionTop - sectionHeight / 3) {
+            current = section.getAttribute('id')
+        }
+    })
+    li.forEach(item => {
+        item.classList.remove("active")
+        if (item.classList.contains(current)) {
+            item.classList.add("active")
+        }
+    })
+})

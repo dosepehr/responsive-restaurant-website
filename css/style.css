@@ -71,9 +71,11 @@ ul {
     align-items: baseline;
     color: var(--color-gray1);
 }
+
 .dark-mode-toggler {
-    margin-right: 20px;
+    margin: 0px 20px;
 }
+
 .text-gray1 {
     color: var(--color-gray1);
 }
@@ -131,10 +133,6 @@ ul {
 }
 
 /* about section */
-.about {
-    margin-top: 20vh;
-}
-
 
 #img-width {
     border-radius: 5px;
@@ -153,10 +151,8 @@ ul {
     font-size: 15px;
 }
 
-/* services section */
-.services {
-    margin-top: 20vh;
-}
+/** services section */
+
 
 .svg-container {
     fill: var(--color-green1);
@@ -175,10 +171,7 @@ ul {
 }
 
 /* menu section */
-.menu {
-    margin-top: 20vh;
 
-}
 
 .make-center {
     margin: 0 auto;
@@ -228,10 +221,6 @@ ul {
 
 
 /** app section */
-.app {
-
-    margin-top: 20vh;
-}
 
 .links img {
     width: 120px;
@@ -253,10 +242,6 @@ ul {
 
 /** contact section*/
 
-.contact {
-    margin-top: 10vh;
-}
-
 /** footer */
 footer {
     margin-top: 10vh;
@@ -276,7 +261,7 @@ footer {
     width: max-content;
 }
 
-.mt-10vh{
+.mt-10vh {
     margin-top: 10vh;
 }
 
@@ -323,7 +308,7 @@ footer {
 
 
 /** sidebar */
-.side-bar{
+.side-bar {
     position: fixed;
     top: 0;
     right: -100%;
@@ -335,22 +320,26 @@ footer {
     display: flex;
     flex-direction: column;
 }
-.side-bar-active{
+
+.side-bar-active {
     right: 0;
 }
-.side-bar ul{
+
+.side-bar ul {
     height: 40%;
     padding: 0;
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
-.side-bar-container{
+
+.side-bar-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.overlay{
+
+.overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -359,16 +348,18 @@ footer {
     background-color: #00000096;
     z-index: 998;
     opacity: 0;
+    display: none;
 }
 
 
-.overlay-active{
+.overlay-active {
     opacity: 1;
+    display: block;
 }
 
 
 
-.close{
+.close {
     position: absolute;
     top: 0;
     left: 0;
@@ -376,4 +367,8 @@ footer {
     font-size: 1.5rem;
     color: #000;
     cursor: pointer;
+}
+
+.active a {
+    color: var(--color-green1) !important;
 }
