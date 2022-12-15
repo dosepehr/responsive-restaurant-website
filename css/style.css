@@ -248,15 +248,19 @@ footer {
 }
 
 .media {
-    width: 100%;
+    min-width: 100px;
     display: flex;
     justify-content: space-between;
 }
 
 .media i {
     font-size: 1.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-
+.ml0{
+    margin-left: 0 !important;
+}
 .max-width {
     width: max-content;
 }
@@ -265,47 +269,13 @@ footer {
     margin-top: 10vh;
 }
 
-
-
-/** header animation */
-.header-down {
-    position: fixed;
-    left: 0;
-    z-index: 999;
-    width: 100%;
-    height: auto;
-    background-color: #fff;
-    transition: all 0.3s ease;
-    align-items: center;
-    animation: header-down 0.3s ease forwards;
-    box-shadow: 0 2px 4px #0000001a;
+.w-30 {
+    width: 30% !important;
 }
 
-
-@keyframes header-down {
-    100% {
-        transform: translateY(24px);
-    }
+.w-150 {
+    width: 150% !important;
 }
-
-.header-up {
-    position: fixed;
-    left: 0;
-    z-index: 999;
-    width: 100%;
-    height: auto;
-    transition: all 0.3s ease;
-    align-items: center;
-    animation: header-up 0.3s ease forwards;
-    box-shadow: 0 2px 4px #0000001a;
-}
-
-@keyframes header-up {
-    100% {
-        transform: translateY(-100%);
-    }
-}
-
 
 /** sidebar */
 .side-bar {
@@ -367,6 +337,45 @@ footer {
     font-size: 1.5rem;
     color: #000;
     cursor: pointer;
+}
+
+/** header animation */
+.header-down {
+    position: fixed;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    align-items: center;
+    animation: header-down 0.3s ease forwards;
+    box-shadow: 0 2px 4px #0000001a;
+}
+
+
+@keyframes header-down {
+    100% {
+        transform: translateY(24px);
+    }
+}
+
+.header-up {
+    position: fixed;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease;
+    align-items: center;
+    animation: header-up 0.3s ease forwards;
+    box-shadow: 0 2px 4px #0000001a;
+}
+
+@keyframes header-up {
+    100% {
+        transform: translateY(-100%);
+    }
 }
 
 .active a {

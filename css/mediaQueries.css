@@ -41,6 +41,9 @@
     .section-desc {
         width: 75%;
     }
+    .w-150{
+        width: 200% !important ;
+    }
 }
 
 @media (max-width:991.98px) {
