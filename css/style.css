@@ -32,6 +32,7 @@ a {
 
 ul {
     list-style: none;
+    margin: 0;
 }
 
 body {
@@ -42,6 +43,8 @@ body {
 /* header */
 header {
     padding: 30px 0px;
+    display: flex;
+    align-items: center;
 }
 
 nav {
@@ -55,10 +58,13 @@ ul {
     justify-content: space-between;
 }
 
+/* d-flex nav-container justify-content-center align-items-center bg-dark */
 .nav-container {
-    width: 65%;
     display: flex;
-    justify-content: end;
+    width: 65%;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
 }
 
 .dark-mode-toggler {
@@ -90,6 +96,12 @@ ul {
 
 .bi-sun {
     color: var(--dark-text-gray);
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
 }
 
 /* home section */
@@ -270,4 +282,43 @@ footer {
 
 .max-width {
     width: max-content;
+}
+
+
+
+
+.header-down {
+    position: fixed;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: auto;
+    background-color:#fff;
+    transition: all 0.3s ease;
+    align-items: center;
+    animation: header-down 0.3s ease forwards;
+}
+
+
+@keyframes header-down {
+    100% {
+        transform: translateY(24px);
+    }
+}
+
+.header-up {
+    position: fixed;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease;
+    align-items: center;
+    animation: header-up 0.3s ease forwards;
+}
+
+@keyframes header-up {
+    100% {
+        transform: translateY(-100%);
+    }
 }
