@@ -17,8 +17,13 @@
     .movil-app{
         margin-top: 20px;
     }
-}
 
+}
+@media (min-width:767.98px){
+    .side-bar{
+        display: none;
+    }
+}
 @media (min-width:991.98px) {
     #img-width {
         width: 75%;

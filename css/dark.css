@@ -10,9 +10,21 @@
 .dark .on-dark-text-white {
     color: #fff !important;
 }
-.dark .food{
+
+.dark .food {
     background-color: var(--color-dark-green);
 }
-.dark header{
+
+.dark header {
     background-color: var(--color-dark-green);
+
+}
+
+.dark .side-bar {
+    background-color: var(--color-dark-green);
+
+}
+
+.dark .dark-text-gray-icon {
+    color: var(--dark-text-gray);
 }
