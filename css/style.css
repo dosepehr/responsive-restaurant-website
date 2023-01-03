@@ -1,4 +1,4 @@
-/* defaults */
+/** defaults */
 
 @font-face {
     font-family: 'Poppins';
@@ -40,7 +40,7 @@ body {
 }
 
 
-/* header */
+/** header */
 header {
     padding: 30px 0px;
     display: flex;
@@ -98,7 +98,7 @@ ul {
     align-items: center;
 }
 
-/* home section */
+/** home section */
 
 .text-green {
     color: var(--color-green1);
@@ -132,7 +132,7 @@ ul {
     background-color: var(--color-green2);
 }
 
-/* about section */
+/** about section */
 
 #img-width {
     border-radius: 5px;
@@ -170,7 +170,7 @@ ul {
     text-align: center;
 }
 
-/* menu section */
+/** menu section */
 
 
 .make-center {
@@ -240,11 +240,12 @@ ul {
     width: 400px;
 }
 
-/** contact section*/
+
 
 /** footer */
 footer {
     margin-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 .media {

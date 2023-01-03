@@ -18,7 +18,9 @@
     .movil-app{
         margin-top: 20px;
     }
-
+    .text--center{
+        text-align: center;
+    }
 }
 @media (min-width:767.98px){
     .side-bar{
